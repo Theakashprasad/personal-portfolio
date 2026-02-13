@@ -3,7 +3,6 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import resumeImage from "../../Assets/Projects/resume.jpeg";
 
@@ -30,12 +29,6 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        {/* PDF Preview */}
-        {/* <Row className="resume">
-          <Document file="/video.pdf" className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row> */}
         <img
           src={resumeImage}
           alt="Resume Preview"
