@@ -47,7 +47,7 @@ description="A professional call and collaboration platform built with React.js 
               title="Task Manager"
 description="Web-based Task Management platform built with React.js, Node.js, and MongoDB. Allows users to create, update, track, and manage tasks efficiently with a clean and responsive interface. Supports real-time collaboration using Socket.IO with instant task synchronization across sessions and persistent data storage for seamless productivity."
               ghLink="https://github.com/Theakashprasad/taskmanager_frontend"
-              demoLink="https://editor.soumya-jit.tech/"              
+              demoLink="https://taskmanager-l4dn.onrender.com"              
             />
           </Col>
 
