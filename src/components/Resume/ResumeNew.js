@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
@@ -7,11 +6,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import resumeImage from "../../Assets/Projects/resume.jpeg";
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
 
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
 
   return (
     <div>
